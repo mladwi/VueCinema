@@ -1,0 +1,221 @@
+@media (max-width:1200px) {
+    .intro {
+        height: 550px;
+    }
+}
+
+@media (max-width:1140px) {
+    .film {
+        text-align: center;
+    }
+
+    .film_box {
+        max-width: 540px;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .title {
+        margin: 30px 0;
+        font-size: 32px;
+        line-height: 100%;
+    }
+}
+
+@media (max-width:1000px) {
+    .intro {
+        height: 480px;
+    }
+
+    .intro_title {
+        font-size: 55px;
+        line-height: 100%;
+        text-align: center;
+    }
+
+    .intro_text {
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .intro_info {
+        justify-content: center;
+    }
+}
+
+@media (max-width:800px) {
+    .film_card {
+        width: 240px;
+        height: 330px;
+        padding: 25px 15px 18px;
+        gap: 12px;
+    }
+
+    .film_text {
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+        overflow-y: scroll;
+    }
+
+    .intro {
+        height: 430px;
+    }
+
+    .header_top {
+        padding: 15px 0;
+    }
+
+    .header_top img {
+        width: 40px;
+    }
+
+    .nav_list {
+        position: absolute;
+        flex-direction: column;
+        background-color: #040D1F;
+        z-index: 99;
+        top: 0;
+        right: 0;
+        padding: 30px;
+        padding-top: 50px;
+        text-align: center;
+        height: 100vh;
+        transform: translateX(110%);
+        transition: 1s;
+    }
+
+    .header {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .nav_link span {
+        padding: 20px 0;
+    }
+
+    .nav {
+        padding: 15px 0;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu:focus~.nav_list {
+        transform: translate(0);
+    }
+
+    .intro_title {
+        font-size: 45px;
+    }
+
+    .intro_text {
+        margin: 20px auto;
+    }
+
+    .link,
+    .intro_link {
+        width: 140px;
+        height: 40px;
+    }
+
+    .nav_logo img {
+        width: 90px;
+    }
+
+    .nav_logo span {
+        font-size: 16px;
+    }
+
+    .link,
+    .intro_link {
+        width: 140px;
+        height: 40px;
+    }
+}
+
+@media (max-width:600px) {
+    .intro {
+        height: 380px;
+    }
+
+    .intro_title {
+        font-size: 38px;
+    }
+
+    .intro_text {
+        margin: 15px auto;
+        line-height: 20px;
+        font-size: 15px;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .link,
+    .intro_link {
+        width: 120px;
+        height: 35px;
+    }
+
+    .nav_logo img {
+        width: 80px;
+    }
+}
+
+@media (max-width:570px) {
+    .film_box {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        padding: 5px;
+        gap: 15px;
+    }
+    .film_card {
+        flex-shrink: 0;
+        width: 220px;
+        height: 290px;
+        gap: 10px;
+        padding: 15px 12px;
+    }
+    .film_play {
+        width: 35px;
+    }
+    .film_time {
+        padding: 4px 20px;
+    }
+    .film_play,
+    .film_time,
+    .film_title,
+    .film_text {
+        transform: unset;
+    }
+    .film_card:hover{
+        box-shadow: unset;
+    }
+    .film_card:hover .film_play{
+        transform: unset;
+    }
+}
+
+@media (max-width:400px) {
+    .intro {
+        height: 320px;
+    }
+
+    .header_top {
+        padding: 10px 0;
+    }
+
+    .header_top img {
+        width: 35px;
+    }
+
+    .intro_title {
+        font-size: 31px;
+    }
+
+}
